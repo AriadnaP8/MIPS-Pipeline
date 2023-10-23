@@ -1,0 +1,468 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 10 00:11:24 2023
+# Process ID: 10440
+# Current directory: D:/Faculta/AN2/Sem 2/AC/ProiectFinalMipsPipeline/ProiectFinalMipsPipeline.runs/synth_1
+# Command line: vivado.exe -log lab7_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab7_4.tcl
+# Log file: D:/Faculta/AN2/Sem 2/AC/ProiectFinalMipsPipeline/ProiectFinalMipsPipeline.runs/synth_1/lab7_4.vds
+# Journal file: D:/Faculta/AN2/Sem 2/AC/ProiectFinalMipsPipeline/ProiectFinalMipsPipeline.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab7_4.tcl -notrace
+Command: synth_design -top lab7_4 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23572 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 283.141 ; gain = 72.859
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'lab7_4' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:13]
+INFO: [Synth 8-3491] module 'MPG' declared at 'D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MPG.vhd:5' bound to instance 'monopulse1' of component 'MPG' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'MPG' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MPG.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'MPG' (1#1) [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MPG.vhd:11]
+INFO: [Synth 8-3491] module 'MPG' declared at 'D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MPG.vhd:5' bound to instance 'monopulse2' of component 'MPG' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:133]
+INFO: [Synth 8-3491] module 'IFetch' declared at 'D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/IFetch.vhd:5' bound to instance 'inst_IF' of component 'IFetch' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'IFetch' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/IFetch.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'IFetch' (2#1) [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/IFetch.vhd:17]
+INFO: [Synth 8-3491] module 'IDecode' declared at 'D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/IDecode.vhd:6' bound to instance 'inst_ID' of component 'IDecode' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:137]
+INFO: [Synth 8-638] synthesizing module 'IDecode' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/IDecode.vhd:24]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/IDecode.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'IDecode' (3#1) [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/IDecode.vhd:24]
+INFO: [Synth 8-3491] module 'MainControl' declared at 'D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MainControl.vhd:4' bound to instance 'inst_MC' of component 'MainControl' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'MainControl' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MainControl.vhd:17]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MainControl.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'MainControl' (4#1) [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MainControl.vhd:17]
+INFO: [Synth 8-3491] module 'ExecutionUnit' declared at 'D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/ExecutionUnit.vhd:6' bound to instance 'inst_EX' of component 'ExecutionUnit' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'ExecutionUnit' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/ExecutionUnit.vhd:24]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/ExecutionUnit.vhd:35]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/ExecutionUnit.vhd:44]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/ExecutionUnit.vhd:66]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/ExecutionUnit.vhd:72]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/ExecutionUnit.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'ExecutionUnit' (5#1) [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/ExecutionUnit.vhd:24]
+INFO: [Synth 8-3491] module 'MEM' declared at 'D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MEM.vhd:5' bound to instance 'inst_MEM' of component 'MEM' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'MEM' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MEM.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'MEM' (6#1) [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/MEM.vhd:15]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:145]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:157]
+INFO: [Synth 8-3491] module 'SSD' declared at 'D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/SSD.vhd:5' bound to instance 'display' of component 'SSD' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'SSD' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/SSD.vhd:12]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/SSD.vhd:31]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/SSD.vhd:42]
+INFO: [Synth 8-226] default block is never used [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/SSD.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'SSD' (7#1) [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/SSD.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'lab7_4' (8#1) [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/lab7_4.vhd:13]
+WARNING: [Synth 8-3331] design ExecutionUnit has unconnected port rd[2]
+WARNING: [Synth 8-3331] design ExecutionUnit has unconnected port rd[1]
+WARNING: [Synth 8-3331] design ExecutionUnit has unconnected port rd[0]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port led[15]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port led[14]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port led[13]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port led[12]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port led[11]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port btn[4]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port btn[3]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port btn[2]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[15]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[14]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[13]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[12]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[11]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[10]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[9]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[8]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[4]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[3]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[2]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[1]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 320.500 ; gain = 110.219
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 320.500 ; gain = 110.219
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/constrs_1/imports/Desktop/Basys3_test_env.xdc]
+Finished Parsing XDC File [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/constrs_1/imports/Desktop/Basys3_test_env.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/constrs_1/imports/Desktop/Basys3_test_env.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab7_4_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab7_4_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 612.707 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ROM" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Zero" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'rWA_reg' [D:/Faculta/AN2/Sem 2/AC/MipsPipeline/project_profu.srcs/sources_1/imports/Desktop/ExecutionUnit.vhd:117]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 3     
+	   3 Input     16 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 10    
+	                3 Bit    Registers := 6     
+	                1 Bit    Registers := 17    
++---RAMs : 
+	              512 Bit         RAMs := 1     
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	 257 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 6     
+	   2 Input      9 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module lab7_4 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 9     
+	                3 Bit    Registers := 6     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module MPG 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module IFetch 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 257 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+Module IDecode 
+Detailed RTL Component Info : 
++---RAMs : 
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+Module MainControl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      3 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 8     
+Module ExecutionUnit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   3 Input     16 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module MEM 
+Detailed RTL Component Info : 
++---RAMs : 
+	              512 Bit         RAMs := 1     
+Module SSD 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "inst_EX/Zero" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port led[15]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port led[14]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port led[13]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port led[12]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port led[11]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port btn[4]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port btn[3]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port btn[2]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[15]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[14]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[13]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[12]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[11]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[10]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[9]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[8]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[4]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[3]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[2]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[1]
+WARNING: [Synth 8-3331] design lab7_4 has unconnected port sw[0]
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[13]' (FDE) to 'Ext_imm_ID_EX_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[14]' (FDE) to 'Ext_imm_ID_EX_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[15]' (FDE) to 'Ext_imm_ID_EX_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[12]' (FDE) to 'Ext_imm_ID_EX_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[7]' (FDE) to 'Ext_imm_ID_EX_reg[8]'
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[8]' (FDE) to 'Ext_imm_ID_EX_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[9]' (FDE) to 'Ext_imm_ID_EX_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[10]' (FDE) to 'Ext_imm_ID_EX_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sa_ID_EX_reg' (FDE) to 'Ext_imm_ID_EX_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[0]' (FDE) to 'func_ID_EX_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[1]' (FDE) to 'func_ID_EX_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Ext_imm_ID_EX_reg[2]' (FDE) to 'func_ID_EX_reg[2]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+----------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object           | Inference | Size (Depth x Width) | Primitives      | 
++------------+----------------------+-----------+----------------------+-----------------+
+|lab7_4      | inst_ID/reg_file_reg | Implied   | 8 x 16               | RAM32M x 6      | 
+|lab7_4      | inst_MEM/MEM_reg     | Implied   | 32 x 16              | RAM32X1S x 16   | 
++------------+----------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name            | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|lab7_4      | RegWrite_MEM_WB_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+---------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    22|
+|3     |LUT1     |    34|
+|4     |LUT2     |    23|
+|5     |LUT3     |    29|
+|6     |LUT4     |    51|
+|7     |LUT5     |    45|
+|8     |LUT6     |   105|
+|9     |MUXF7    |    32|
+|10    |RAM32M   |     6|
+|11    |RAM32X1S |    16|
+|12    |SRL16E   |     1|
+|13    |FDRE     |   202|
+|14    |LD       |     3|
+|15    |IBUF     |     6|
+|16    |OBUF     |    22|
+|17    |OBUFT    |     5|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------+--------------+------+
+|      |Instance     |Module        |Cells |
++------+-------------+--------------+------+
+|1     |top          |              |   603|
+|2     |  inst_ID    |IDecode       |     6|
+|3     |  inst_EX    |ExecutionUnit |   103|
+|4     |  inst_IF    |IFetch        |   121|
+|5     |  inst_MEM   |MEM           |    48|
+|6     |  monopulse1 |MPG           |    50|
+|7     |  monopulse2 |MPG_0         |     4|
++------+-------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 612.707 ; gain = 402.426
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 612.707 ; gain = 110.219
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 612.707 ; gain = 402.426
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 9 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 25 instances were transformed.
+  LD => LDCE (inverted pins: G): 3 instances
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+  RAM32X1S => RAM32X1S (RAMS32): 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+71 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 612.707 ; gain = 402.426
+INFO: [Common 17-1381] The checkpoint 'D:/Faculta/AN2/Sem 2/AC/ProiectFinalMipsPipeline/ProiectFinalMipsPipeline.runs/synth_1/lab7_4.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 612.707 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 10 00:11:48 2023...

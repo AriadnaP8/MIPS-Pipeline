@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 10 00:11:54 2023
+# Process ID: 2528
+# Current directory: D:/Faculta/AN2/Sem 2/AC/ProiectFinalMipsPipeline/ProiectFinalMipsPipeline.runs/impl_1
+# Command line: vivado.exe -log lab7_4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lab7_4.tcl -notrace
+# Log file: D:/Faculta/AN2/Sem 2/AC/ProiectFinalMipsPipeline/ProiectFinalMipsPipeline.runs/impl_1/lab7_4.vdi
+# Journal file: D:/Faculta/AN2/Sem 2/AC/ProiectFinalMipsPipeline/ProiectFinalMipsPipeline.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source lab7_4.tcl -notrace

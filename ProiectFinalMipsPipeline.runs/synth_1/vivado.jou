@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 10 00:11:24 2023
+# Process ID: 10440
+# Current directory: D:/Faculta/AN2/Sem 2/AC/ProiectFinalMipsPipeline/ProiectFinalMipsPipeline.runs/synth_1
+# Command line: vivado.exe -log lab7_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab7_4.tcl
+# Log file: D:/Faculta/AN2/Sem 2/AC/ProiectFinalMipsPipeline/ProiectFinalMipsPipeline.runs/synth_1/lab7_4.vds
+# Journal file: D:/Faculta/AN2/Sem 2/AC/ProiectFinalMipsPipeline/ProiectFinalMipsPipeline.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab7_4.tcl -notrace
